@@ -72,3 +72,19 @@ body {
 .fa-times {
   float: right;
 }
+
+#contacto {
+  background-color: #f5f5f5;
+}
+
+#contacto {
+  text-align: center;
+}
+
+.datos-contacto {
+  margin-bottom: 2%;
+}
+
+.fa-3x {
+  padding: 1%;
+}
