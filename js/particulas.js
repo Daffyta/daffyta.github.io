@@ -34,7 +34,7 @@ particlesJS('particles-js', {
     },
     anim: {
       enable: true,
-      speed: 8 // Velocidad a la que se mueven las aristas
+      speed: 2 // Velocidad a la que se mueven las aristas
     }
   },
   interactivity: {
