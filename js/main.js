@@ -5,3 +5,12 @@ $('.button-collapse').sideNav({
     draggable: true // Choose whether you can drag to open on touch screens
   }
 );
+
+var cargarProgressBar = function(){
+    var scroll = document.body.scrollTop;
+    if(scroll >= 600){
+      $('.progress').show('slow');
+    } else if(scroll < 599){
+      $('.progress').hide();
+    }
+ };
