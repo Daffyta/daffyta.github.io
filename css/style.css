@@ -1,110 +1,111 @@
-  body {
-  background-color: #406d8a;
-  font-family: 'Bubbler One', sans-serif;
-  /*font-family: 'Josefin Sans', sans-serif;*/
-}
+    body {
+    background-color: #406d8a;
+    font-family: 'Bubbler One', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+  }
 
-#navegador a {
-  /*margin-right: -34%;
+  #navegador a {
+    /*margin-right: -34%;
   margin-top: 5%;*/
-}
+  }
 
-.fa-2x {
-  color: #000;
-  margin-top: 100%;
-  margin-left: 100%;
-}
+  .fa-2x {
+    color: #000;
+    margin-top: 2%;
+    margin-left: 2%;
+    position: fixed;
+  }
 
-#portada {
-  display: flex;
-  justify-content: center;
-}
+  #portada {
+    display: flex;
+    justify-content: center;
+  }
 
-.perfil {
-  position: absolute;
-  margin-top: 15%;
-}
+  .perfil {
+    position: absolute;
+    margin-top: 15%;
+  }
 
-.puesto {
-  position: absolute;
-  margin-top: 24%;
-}
+  .puesto {
+    position: absolute;
+    margin-top: 24%;
+  }
 
-#portada .botones {
-  position: absolute;
-  margin-top: 32%;
-  width: 40%;
-  display: flex;
-  justify-content: center;
-}
+  #portada .botones {
+    position: absolute;
+    margin-top: 32%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
 
-#portada button {
-  padding: 2% 12%;
-  background-color: #fff;
-  border: 1px solid #fff;
-  border-radius: 15px;
-}
+  #portada button {
+    padding: 2% 12%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+  }
 
-#habilidades {
-  background-color: #f5f5f5;
-  margin-top: -27px;
-}
+  #habilidades {
+    background-color: #f5f5f5;
+    margin-top: -27px;
+  }
 
-.progress .determinate {
-  background-color: #406d8a;
-}
+  .progress .determinate {
+    background-color: #406d8a;
+  }
 
-.progress {
-  height: 10px;
-  border-radius: 5px;
-}
+  .progress {
+    height: 10px;
+    border-radius: 5px;
+  }
 
-.porciento {
-  font-size: 1.25em;
-}
+  .porciento {
+    font-size: 1.25em;
+  }
 
-.habilidad-progreso {
-  padding: 0 5em 2em 5em !important;
-}
+  .habilidad-progreso {
+    padding: 0 5em 2em 5em !important;
+  }
 
-.card .card-content .card-title i {
-  float: right;
-}
+  .card .card-content .card-title i {
+    float: right;
+  }
 
-.fa-times {
-  float: right;
-}
+  .fa-times {
+    float: right;
+  }
 
-#contacto {
-  background-color: #f5f5f5;
-}
+  #contacto {
+    background-color: #f5f5f5;
+  }
 
-#contacto {
-  text-align: center;
-}
+  #contacto {
+    text-align: center;
+  }
 
-.datos-contacto {
-  margin-bottom: 2%;
-}
+  .datos-contacto {
+    margin-bottom: 2%;
+  }
 
-.fa-3x {
-  padding: 1%;
-}
+  .fa-3x {
+    padding: 1%;
+  }
 
-.collapsible-body {
-  padding: 2rem;
-  margin-bottom: -25px;
-  border-bottom: transparent;
-}
+  .collapsible-body {
+    padding: 2rem;
+    margin-bottom: -25px;
+    border-bottom: transparent;
+  }
 
-#acerca-de-mi {
-  width: 100%;
-}
+  #acerca-de-mi {
+    width: 100%;
+  }
 
-#acerca-de-mi p {
-  color: #f5f5f5;
-}
+  #acerca-de-mi p {
+    color: #f5f5f5;
+  }
 
-.collapsible-body {
-  border-bottom: #406d8a;
-  background-color: #406d8a;
+  .collapsible-body {
+    border-bottom: #406d8a;
+    background-color: #406d8a;
