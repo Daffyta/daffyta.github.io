@@ -1,12 +1,13 @@
 body {
   background-color: #406d8a;
-  font-family: 'Bubbler One', sans-serif;
   /*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
 }
 
-#navegador a {
-  /*margin-right: -34%;
-  margin-top: 5%;*/
+label,
+.card-title,
+h2 {
+  font-family: 'Bubbler One', sans-serif;
 }
 
 .fa-2x {
@@ -23,27 +24,27 @@ body {
 
 .perfil {
   position: absolute;
-  margin-top: 15%;
+  margin-top: 14%;
 }
 
 .puesto {
   position: absolute;
-  margin-top: 24%;
+  margin-top: 27%;
 }
 
 #portada .botones {
   position: absolute;
-  margin-top: 32%;
+  margin-top: 35%;
   width: 40%;
   display: flex;
   justify-content: center;
 }
 
-#portada button {
-  padding: 2% 12%;
-  background-color: #fff;
-  border: 1px solid #fff;
-  border-radius: 15px;
+#portada a {
+  padding: 2% 15%;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 3px;
 }
 
 #habilidades {
@@ -76,7 +77,7 @@ body {
   float: right;
 }
 
-.redireccion{
+.redireccion {
   margin-right: 5%;
 }
 
@@ -110,7 +111,18 @@ body {
   color: #f5f5f5;
 }
 
+.fa-angle-double-down{
+  margin-left: 34%;
+  padding-right: 5%;
+  font-size: 3rem !important;
+  color: #000;
+}
+
 .collapsible-body {
   border-bottom: #406d8a;
   background-color: #406d8a;
+}
+
+a{
+  color: #406d8a;
 }
