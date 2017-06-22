@@ -4,10 +4,15 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.logo {
+  display: none;
+}
+
 label,
 .card-title,
 h2 {
   font-family: 'Bubbler One', sans-serif;
+  font-weight: bold;
 }
 
 .fa-2x {
@@ -35,7 +40,7 @@ h2 {
 #portada .botones {
   position: absolute;
   margin-top: 35%;
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
@@ -111,7 +116,7 @@ h2 {
   color: #f5f5f5;
 }
 
-.fa-angle-double-down{
+.fa-angle-double-down {
   margin-left: 34%;
   padding-right: 5%;
   font-size: 3rem !important;
@@ -123,6 +128,54 @@ h2 {
   background-color: #406d8a;
 }
 
-a{
+a {
   color: #406d8a;
+}
+
+.userView {
+  background-color: #406d8a;
+}
+
+.side-nav {
+  background-color: #f5f5f5;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .perfil {
+    position: absolute;
+    /*margin-top: 14%;*/
+    display: none;
+  }
+  .puesto {
+    display: none;
+  }
+  .botones {
+    display: none;
+  }
+  #particles-js {
+    height: 700px;
+  }
+  #portada .botones {
+    margin-top: 135%;
+  }
+  #portada a {
+    padding: 10% 26%;
+  }
+  .fa-angle-double-down {
+    margin-left: 9%;
+  }
+  .logo {
+    display: flex;
+  }
+
+  .logo img{
+    position: absolute;
+    left: 18%;
+    margin-top: 36%;
+    width: 20em;
+  }
+
+  .parte-dos{
+    display: none;
+  }
 }
