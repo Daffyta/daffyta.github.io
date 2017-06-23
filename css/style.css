@@ -72,6 +72,7 @@ label{
   background-color: #f5f5f5;
   border: 1px solid #f5f5f5;
   border-radius: 3px;
+  color: #406d8a;
 }
 
 #habilidades {
@@ -175,6 +176,10 @@ a {
   position: sticky;
 }
 
+.icono {
+  display: none;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .perfil {
     position: absolute;
@@ -216,5 +221,34 @@ a {
 
   #acerca-de-mi img{
     display: none;
+  }
+
+  .progress{
+    display: none;
+  }
+
+  .porciento {
+    float: right;
+    color: #f5f5f5;
+  }
+
+  h5{
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .icono{
+    display: inline-block;
+    width: 70px;
+    float: left;
+  }
+
+  .icon2{
+    width: 60px;
+  }
+
+  .icon3{
+    width: 65px;
+    margin-top: 2%;
   }
 }
