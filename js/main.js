@@ -24,7 +24,7 @@ window.onscroll = function (e) {
     var offset = habilidades.offsetTop;
     var height = habilidades.clientHeight;
     var scroll = window.scrollY;
-    if (offset <= scroll + 10 && scroll <= offset + height) {
+    if (offset <= scroll + 20 && scroll <= offset + height) {
         menuIcon.style.color = '#f5f5f5';
     } else {
         menuIcon.style.color = '#406D8A';

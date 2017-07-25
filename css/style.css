@@ -199,6 +199,10 @@ a {
   bottom: 3%;
 }
 
+.card-reveal i{
+  color: #000;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .perfil {
     position: absolute;
