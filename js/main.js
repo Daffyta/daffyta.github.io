@@ -19,14 +19,30 @@ $(document).ready(function() {
 });
 
 window.onscroll = function (e) {
-    var habilidades = document.getElementById("habilidades");
+    // var habilidades = document.getElementById("habilidades");
     var menuIcon = document.querySelector('.fa-2x');
-    var offset = habilidades.offsetTop;
-    var height = habilidades.clientHeight;
+    // var offset = habilidades.offsetTop;
+    // var height = habilidades.clientHeight;
     var scroll = window.scrollY;
-    if (offset <= scroll + 20 && scroll <= offset + height) {
-        menuIcon.style.color = '#f5f5f5';
-    } else {
-        menuIcon.style.color = '#406D8A';
-    }
+    var secciones = document.querySelectorAll("section");
+    secciones.forEach(function (seccion) {
+      var offset = seccion.offsetTop;
+      var height = seccion.clientHeight;
+      if (offset <= scroll + 20 && scroll <= offset + height) {
+        switch (seccion.id) {
+          case "particles-js":
+          case "habilidades":
+          case "contacto":
+            menuIcon.style.color = '#f5f5f5';
+            break;
+          default:
+            menuIcon.style.color = '#406D8A';
+        }
+      }
+    })
+    // if (offset <= scroll + 20 && scroll <= offset + height) {
+    //     menuIcon.style.color = '#f5f5f5';
+    // } else {
+    //     menuIcon.style.color = '#406D8A';
+    // }
 }
