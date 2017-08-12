@@ -222,7 +222,7 @@ a {
     margin-top: 135%;
   }
   #portada a {
-    padding: 10% 26%;
+    padding: 8% 24%;
   }
   .fa-angle-double-down {
     margin-left: 9%;
@@ -273,5 +273,9 @@ a {
   .icon3{
     width: 65px;
     margin-top: 2%;
+  }
+
+  .movil-none{
+    display: none;
   }
 }
